@@ -7,6 +7,6 @@ def decimal_to_binary(num):
         else:
             return decimal_to_binary(num // 2) + str(num % 2)
 
-# Test the function
-print(decimal_to_binary(1)) # Should print 1010
-print(decimal_to_binary(0)) # Should print 0
+
+print(decimal_to_binary(10)) 
+print(decimal_to_binary(0))
